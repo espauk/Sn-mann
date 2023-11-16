@@ -1,0 +1,26 @@
+import image as I
+scene = empty-scene(500, 500)
+
+Bigsirkel = circle(50, "solid", "snow")
+Bigsirkel2 = circle(75, "solid", "snow")
+
+small-circle = circle(7, "solid", "black")
+small-circle2 = circle(5, "solid", "black")
+Gulrot = circle(6, "solid", "orange")
+
+hatt1 = rectangle(25,30, "solid", "black")
+hatt2 = rectangle(50,25, "solid", "black")
+
+knapp1 = circle(4, "solid", "black")
+knapp2 = circle(4, "solid", "black")
+
+put-image(Bigsirkel2, 100, 100, put-image(small-circle, 85, 197, put-image(Bigsirkel, 100, 200, scene)))
+
+
+
+
+put-image(Bigsirkel2, 100, 100, put-image(knapp1, 207,90, put-image(knapp2, 97,70, put-image(Gulrot, 97,190, put-image(small-circle2, 110,210, put-image(small-circle, 85, 210, put-image(Bigsirkel, 100, 200, scene)))))))
+
+
+
+put-image(hatt1,97,280, put-image(hatt2, 97,260, put-image(knapp1, 97,105, put-image(knapp1, 97,75, put-image(knapp1, 97,90, put-image(Bigsirkel2, 100, 100, put-image(Gulrot, 92,190, put-image(small-circle2, 110,210, put-image(small-circle, 85, 210, put-image(Bigsirkel, 100, 200, scene))))))))))
